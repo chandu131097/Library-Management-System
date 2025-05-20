@@ -5,7 +5,7 @@ import java.util.Map;
 
 public class Department {
 
-    private Map<Boolean , HashSet<Book>> books;
+    private HashMap<Boolean , HashSet<Book>> books;
 
     private String name;
     private int numOfAvailableBooks;
@@ -21,7 +21,7 @@ public class Department {
         this.name = name;
     }
 
-    public Map<Boolean , HashSet<Book>> getBooks(){
+    public HashMap<Boolean , HashSet<Book>> getBooks(){
         return this.books;
     }
 

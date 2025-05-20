@@ -38,7 +38,7 @@ public class Library {
         this.departmentList.add(dept);
     }
 
-    public void remove(Department dept){
+    public void removeDepartment(Department dept){
         this.departmentList.remove(dept);
     }
 
